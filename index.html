@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>دوره css</title>
+    <style>
+      body {
+        background-image: url("download.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-attachment: fixed;
+        background-size: cover;
+      }
+
+      img {
+        position: relative;
+        left: 0px;
+        top: 0px;
+        height: 350px;
+        width: 100px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 150px;
+        width: 50%;
+      }
+
+      h1 {
+        font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+        color: #2f4658;
+        text-align: center;
+      }
+
+      .button {
+        background-color: #30526e;
+        border-style: solid;
+        border-radius: 50px;
+        border-width: 5px;
+        border-color: rgb(122, 169, 177);
+        color: white;
+        text-align: center;
+        border-radius: 10px;
+        position: absolute;
+        top: 80%;
+        left: 45%;
+        font-size: 16px;
+        padding: 16px 30px;
+      }
+
+      button:hover {
+        background-color: #729596;
+      }
+
+      ul {
+        list-style-type: none;
+        position: fixed;
+        top: 0;
+        right: 0;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #77c9dd;
+      }
+
+      li {
+        float: right;
+      }
+
+      li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+
+      li a:hover:not(.active) {
+        background-color: #7c8388;
+      }
+
+      .active {
+        background-color: #2f4553;
+      }
+      
+    </style>
+  </head>
+  <body dir="rtl">
+    <ul>
+      <li><a class="active" href="#home">الصفحة الرئيسية</a></li>
+      <li><a href="#about">من نحن</a></li>
+      <li><a href="#contact">تواصل معنا</a></li>
+      <li><a href="#coures">تفاصيل الدوره</a></li>
+    </ul>
+    <img src="icon.jpeg" alt="Css image" />
+    <button class="button">انضمام</button>
+    <h1>دوره لتعليم CSS</h1>
+  </body>
+</html>
